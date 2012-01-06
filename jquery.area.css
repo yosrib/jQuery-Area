@@ -1,0 +1,27 @@
+.area-point {
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius: 10px;
+	opacity: .7;
+	margin-left: -5px;
+	margin-top: -5px;
+	z-index: 2;
+}
+
+.area-point:hover {
+	opacity: .9;
+	width: 10px;
+	height: 10px;
+}
+
+.area-canvas {
+	position: absolute;
+	z-index: 1;
+}
+
+.area-point-selected {
+	border: 3px solid #000;
+	margin-left: -6px;
+	margin-top:	-6px;
+}
